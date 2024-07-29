@@ -4,7 +4,7 @@
 const fs = require('node:fs');
 // const readme = fs.readFileSync('./README.txt', 'utf8'); // Indicamos tipo de carcteres asincrona
 console.log('---------------TEXTO 1---------------------')
-fs.readFile('./README.txt', 'utf8',(error, resolve)=> {
+fs.readFile('./documento.txt', 'utf8',(error, resolve)=> {
     if(error){
         console.log("Error al leer archivo Readme:", error);
         return;
@@ -13,7 +13,7 @@ fs.readFile('./README.txt', 'utf8',(error, resolve)=> {
     console.log(resolve);
 }); 
 console.log('---------------TEXTO 2---------------------')
-fs.readFile('./documento.txt', 'utf8',(error, resolve)=> {
+fs.readFile('./documento2.txt', 'utf8',(error, resolve)=> {
     if(error){
         console.log("Error al leer archivo Documento:", error);
         return;

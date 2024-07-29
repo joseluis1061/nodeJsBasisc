@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const { promisify } = require('node:util');
 const readFilePromisify = promisify(fs.readFile);
 
-readFilePromisify('./README.txt', 'utf-8')
+readFilePromisify('./documento.txt', 'utf-8')
     .then(readme => {
         console.log(readme);
         return readme;
