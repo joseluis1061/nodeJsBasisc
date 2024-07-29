@@ -1,4 +1,4 @@
-import {sum, rest, mul, div} from "./sum.mjs";
+import {sum, rest, mul, div} from "./calculator.mjs";
 console.log(sum(2,3));
 console.log(rest(2,3));
 console.log(mul(2,3));

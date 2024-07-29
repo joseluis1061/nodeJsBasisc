@@ -1,4 +1,4 @@
-const {sum, mul, rest, div} = require('./sum.js');
+const {sum, mul, rest, div} = require('./calculator.js');
 
 console.log(sum(3,2));
 console.log(mul(3,2));
